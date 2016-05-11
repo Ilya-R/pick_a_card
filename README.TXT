@@ -1,0 +1,1 @@
+Its my first public repository, programm pick random card.
