@@ -1,0 +1,4 @@
+massiv_1=["charvi", "piki", "kresti", "bubni"]
+massiv_2=[6,7,8,9,10,"valet","dama","korol","tuz"]
+
+puts "Card picked: #{massiv_2.sample} #{massiv_1.sample}"
