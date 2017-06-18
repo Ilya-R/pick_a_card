@@ -1,5 +1,5 @@
-#encoding utf-8
-if (Gem.win_platform?)
+# encoding utf-8
+if Gem.win_platform?
   Encoding.default_external = Encoding.find(Encoding.locale_charmap)
   Encoding.default_internal = __ENCODING__
 
@@ -8,7 +8,7 @@ if (Gem.win_platform?)
   end
 end
 
-massiv_1 = ['♦','♠','♥ ','♣']
-massiv_2 = [6,7,8,9,10,"valet","dama","korol","tuz"]
+massiv1 = ['♦', '♠', '♥ ', '♣']
+massiv2 = [6, 7, 8, 9, 10, 'valet', 'dama', 'korol', 'tuz']
 
-puts "Card picked: #{massiv_2.sample} #{massiv_1.sample}"
+puts "Card picked: #{massiv2.sample} #{massiv1.sample}"
